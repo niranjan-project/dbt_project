@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+
+  - name: jaffle_shop
+    database: "sunny-mountain-438606-i6"
+    schema: "dbt_ndevaraddi"
+    description: "adaptive dataset"
+    tables:
+      - name: orders
+      - name: customer
